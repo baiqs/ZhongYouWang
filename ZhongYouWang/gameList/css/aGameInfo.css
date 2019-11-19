@@ -1,0 +1,66 @@
+
+/*section域*/
+section{
+    position:relative;
+    bottom:-110px;
+    width:100%;
+    height: 1000px;
+}
+#sectionBox{
+    display: flex;
+    height:1000px;
+}
+#gameSectionBox{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    height:1000px;
+}
+#gameInfo{
+    display: flex;
+    flex-direction: column;
+    height:330px;
+}/*游戏所有信息*/
+#gameName{
+    display: flex;
+    height: 20%;
+}/*游戏标题*/
+#gameInfoContent{
+    display: flex;
+    height: 80%;
+}/*游戏简介*/
+#gamePic{
+    width: 25%;
+    height: 100%;
+}/*游戏图片*/
+#gameTags{
+    display:flex;
+    flex-wrap: wrap;
+    width:50%;
+    height: 100%;
+}/*游戏标签组*/
+#toDownGame{
+    width:25%;
+    height: 100%;
+}/*下载游戏*/
+.gameTag{
+    width:49.7%;
+    height: 50%;
+}/*游戏标签*/
+#gameDirections{
+    height: 260px;
+}/*游戏详情*/
+#gameScreenshots{
+    display: flex;
+    height:400px;
+}/*游戏截图*/
+#comment{
+    height:340px;
+}
+.sectionFill{
+    width:10%;
+    height:1000px;
+}
+.gameScreenshot{
+    width: 25%;
+}

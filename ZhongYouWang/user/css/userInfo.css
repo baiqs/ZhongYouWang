@@ -1,0 +1,60 @@
+div{
+    border:1px solid;
+}
+section{
+    position: relative;
+    bottom:-110px;
+    width:100%;
+}
+#sectionBox{
+    display: flex;
+    height: 830px;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    height: 830px;
+}
+#info_DFF{
+    display: flex;
+    flex:5%;
+}/*简要信息*/
+.info_item{
+    flex:25%;
+    font-size:21px;
+    line-height:60px;
+}/*简要信息项*/
+#info_main{
+    flex:90%;
+}/*主要信息*/
+#info_main_text{
+    position: relative;
+    right:-20%;
+    bottom:-10%;
+    width:60%;
+    height:80%;
+    text-align: left;
+    border:1px solid;
+}/*主要信息文本框*/
+#experiences{
+    display:flex;
+    flex-direction: column;
+    width:20%;
+    height:830px;
+}/*履历*/
+#experiencesHeader{
+    width:100%;
+    height:62px;
+    font-size:21px;
+    line-height:62px;
+}
+.experience{
+    width:100%;
+    height:110px;
+    border-bottom:1px solid;
+}/*履历项*/
+.sectionFill{
+    width:20%;
+    height: 830px;
+}

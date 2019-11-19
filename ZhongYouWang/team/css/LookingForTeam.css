@@ -1,0 +1,98 @@
+/*section域*/
+section{
+    position: relative;
+    top:134px;
+    height:790px;
+    width:100%;
+}
+div{
+    /* border: solid 1px; */
+}
+#sectionBox{
+    display:flex;
+    margin-left:100px;
+    margin-right:110px;
+}
+#teamList{
+    display: flex;
+    flex-direction: column;
+    flex:3;
+    height:790px;
+    background-color: rgba(0,0,0,0.5);
+}
+#map{
+    display:flex;
+    flex-direction: column;
+    flex:7;
+    height:790px;
+}
+#mapPic{
+    width: 100%;
+    height: 100%;
+}
+#teamSearch{
+    flex:0.1;
+    line-height:80px;
+}/*选择省份*/
+#previousPage{
+    left:5%;
+}/*上一页*/
+#nextPage{
+    left:6%;
+}/*下一页*/
+.choosePage{
+    position: relative;
+    display:inline-block;
+    width:90px;
+    height:30px;
+    color:#bce8f1;
+    line-height: 30px;
+    border:solid 1px deepskyblue;
+    border-radius: 30px;
+}
+.choosePage:hover{
+    color:white;
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+#teamListInfo{
+    display: flex;
+    flex-direction: column;
+    flex: 0.6;
+}
+.aTeam{
+    flex:10%;
+    line-height: 45px;
+}
+.aTeam:hover{
+    background-color: sandybrown;
+    cursor:pointer;
+}
+.aTeam >*:hover{
+    cursor: pointer;
+}
+.portrait{
+    float:left;
+    margin-top:11px;
+    margin-left:20px;
+}
+.teamName{
+    float: left;
+    margin-top:12px;
+    margin-right: 10px;
+    color:#bce8f1;
+}
+.teamSignature{
+    float: left;
+    margin-top: 12px;
+}
+#teamInfo{
+    flex:0.3;
+    height: 180px;
+}
+
+/*footer域*/
+footer{
+    position: relative;
+}

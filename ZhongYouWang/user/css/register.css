@@ -1,0 +1,183 @@
+li{
+    margin-bottom: 60px;
+    text-align: left;
+    list-style-type: none;
+    list-style-image: url("../../resources/homePage/Icon-li.png");
+}
+section{
+    position:relative;
+    bottom:-110px;
+    width:100%;
+    height:800px;
+}
+#sectionBox{
+    display:flex;
+    height:800px;
+}
+#entitle{           /*权利*/
+    width:15%;
+    height:800px;
+    border-right:solid 1px grey;
+}
+#info{
+    display: flex;
+    width:50%;
+    height:800px;
+    border-right:solid 1px grey;
+}
+#infoForm{
+    width:100%;
+    height: 80%;
+}
+#infoBox{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    height: 100%;
+}
+.aInfo{
+    width:100%;
+    height:12%;
+}
+
+#userInfo-label-username{
+    position:absolute;
+    left:38%;
+    bottom:83%;
+    font-size:19px;
+}
+#userInfo-label-password{
+    position:absolute;
+    left:38%;
+    bottom:73%;
+    font-size:19px;
+}
+#userInfo-label-makeSure{
+    position:absolute;
+    left:36%;
+    bottom:63%;
+    font-size:19px;
+}
+#userInfo-label-mail{
+    position:absolute;
+    left:38%;
+    bottom:53%;
+    font-size:19px;
+}
+#userInfo-label-phone{
+    position:absolute;
+    left:38%;
+    bottom:43%;
+    font-size:19px;
+}
+#userInfo-label-hostId{
+    position:absolute;
+    left:36%;
+    bottom:33%;
+    font-size:19px;
+}
+#userInfo-label-authCode{
+    position:absolute;
+    left:37%;
+    bottom:23%;
+    font-size:19px;
+}
+#userInfo-text-username{
+    position:absolute;
+    top:14%;
+    left:42%;
+    width:250px;
+    height:22px;
+}#userInfo-text-password{
+    position:absolute;
+    top:24%;
+    left:42%;
+    width:250px;
+    height:22px;
+}#userInfo-text-makeSure{
+    position:absolute;
+    top:34%;
+    left:42%;
+    width:250px;
+    height:22px;
+}#userInfo-text-mail{
+    position:absolute;
+    top:44%;
+    left:42%;
+    width:250px;
+    height:22px;
+}#userInfo-text-phone{
+    position:absolute;
+    top:54%;
+    left:42%;
+    width:250px;
+    height:22px;
+}#userInfo-text-hostId{
+    position:absolute;
+    top:64%;
+    left:42%;
+    width:250px;
+    height:22px;
+}#userInfo-text-authCode{
+    position:absolute;
+    top:74%;
+    left:42%;
+    width:250px;
+    height:22px;
+}
+ #toRegister{
+     position:absolute;
+     bottom:12%;
+     left:45%;
+     width:130px;
+     height: 50px;
+     border:solid 1px grey;
+     line-height:50px;
+     border-radius:4px;
+     color:white;
+     background-color: coral;
+ }/*验证码图片*/
+#toRegister:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}/*登录按钮*/
+
+.infoFill{
+    width:20%;
+    height: 100%;
+}
+#others{
+    display: flex;
+    flex-direction: column;
+    width:15%;
+    height:800px;
+}/*其他*/
+#association{
+    flex:50%;
+}/*社群*/
+#OAImg{
+    width:160px;
+    height: 160px;
+}/*二维码*/
+.aboutMemberItems{
+    margin-left: 28px;
+    margin-bottom: 15px;
+    list-style-image: url("55.jpg");
+}/*群号*/
+
+#aboutMember{
+    display: flex;
+    flex-direction: column;
+    flex:50%;
+    border-bottom:1px solid grey;
+}/*会员*/
+.aboutMember{
+    width: 100%;
+    height: 12.5%;
+    margin-bottom: 30px;
+}/*会员条例*/
+.sectionFill{
+    width:10%;
+    height:800px;
+    border-style: none;
+}

@@ -1,0 +1,186 @@
+div{
+
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: solid 1px black;
+}
+
+header{
+    position: fixed;
+    width:100%;
+    top:0;
+    z-index:1;
+}/*header域骨架*/
+#headerBox{
+    display:flex;
+    background-color: coral;
+    border-style: none;
+}
+#logo{
+    width: 10%;
+    height: 90px;
+    border-style:none;
+}/*logo骨架*/
+#navigation{
+    display: flex;
+    width:80%;
+    height:90px;
+    border-style:none;
+}/*导航主体*/
+#logoImg{
+    position: relative;
+    top:-5px;
+    right:-25px;
+    width:90px;
+    height:100px;
+}
+#register{
+    cursor:pointer;
+}
+.headerFill{
+    width:10%;
+    height: 90px;
+    background-color: transparent;
+    border-style: none;
+}/*header填充*/
+.navigationItem{
+    width: 18%;
+    height: 100%;
+    line-height: 90px;
+    font-size: 20px;
+    border-right:solid 1px grey;
+    border-radius: 4px;
+}/*导航项*/
+.aboveNavigationItem{
+    color:white;
+}
+.navigationItem:hover{
+    background-color:  deepskyblue;
+}
+
+#loginWindow{
+    position:fixed;
+    top:23%;
+    bottom:33%;
+    left: 33%;
+    right:33%;
+    display: none;
+    width: 650px;
+    height: 400px;
+    background-color: #0e90d2;
+    z-index: 3;
+}/*登录窗口*/
+#closeButtonBox{
+    width:100%;
+    height:10%;
+}/*关闭按钮*/
+#closeButton{
+    float:right;
+    width:80px;
+    height:100%;
+    text-align:center;
+    line-height:40px;
+    color:white;;
+    background-color:coral;
+    cursor: default;
+}/*关闭按钮*/
+#closeButton:hover{
+    background-color: red;
+}
+#userId-label{
+    position:absolute;
+    top:110px;
+    left:130px;
+    display:inline-block;
+    width:100px;
+}/*用户账号*/
+#userId{
+    position: absolute;
+    top:100px;
+    right:140px;
+    display:inline-block;
+    width:300px;
+    height:30px;
+}/*用户账户*/
+#userPassword-label{
+    position:absolute;
+    top:200px;
+    left:130px;
+    display:inline-block;
+    width:100px;
+}/*用户密码*/
+#userPassword{
+    position:absolute;
+    top:190px;
+    right:140px;
+    display:inline-block;
+    width:300px;
+    height:30px;
+}/*用户密码*/
+#loginButtonBox{
+    position:absolute;
+    bottom:100px;
+    width:100%;
+    height:60px;
+}/*登陆按钮盒子*/
+#userRegister{
+    position:absolute;
+    bottom:60px;
+    left:130px;
+    display:inline-block;
+    width:100px;
+    height:50px;
+    line-height:50px;
+    background-color:coral;
+    color:white;
+    cursor: default;
+}/*用户注册*/
+#userRegister:hover{
+    background-color: red;
+}
+#userLogin{
+    position:absolute;
+    bottom:60px;
+    left:290px;
+    display:inline-block;
+    width:120px;
+    height:50px;
+    cursor: default;
+}/*用户登录*/
+#userLogin:hover{
+    background-color: red;
+}
+#lookingForPassword{
+    position:absolute;
+    right:100px;
+    bottom:60px;
+    display:inline-block;
+    width:100px;
+    height:50px;
+    line-height:50px;
+    background-color:coral;
+    color:white;
+    cursor: default;
+}/*找回密码*/
+#lookingForPassword:hover{
+    background-color: red;
+}
+#curtain{
+    position: fixed;
+    top:0px;
+    display: none;
+    width:100%;
+    height:100%;
+    background-color: black;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    z-index: 2;
+}/*遮罩层*/

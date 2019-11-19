@@ -1,0 +1,142 @@
+#logoimg{
+    position:relative;
+    top:-5px;
+    left:-70px;
+    width:80px;
+    height:100px;
+}/*logo图片*/
+#logoText{
+    position:relative;
+    top:-15px;
+    left:-70px;
+    width:130px;
+    height:80px;
+}/*logo文字*/
+
+
+section{
+    width:100%;
+    border-style:none;
+    position: relative;
+    top:110px;
+}/*section域*/
+#sectionBox{
+    display:flex;
+    width:100%;
+    background-color:white;
+}
+.sectionFill{
+    width:15%;
+}/*section填充*/
+
+
+#viewPager{
+    display:flex;
+    height: 350px;
+    background-repeat: no-repeat;
+}   /*轮播图*/
+#viewPagerBox{
+    width:600px;
+    height:350px;
+    overflow: hidden;
+}  /*轮播图片容器*/
+.viewPagerItem{
+    position: relative;
+    display: inline;
+    width:100%;
+    height:100%;
+}/*轮播图图片项*/
+.viewPagerFill{
+    width:215px;
+    height:350px;
+} /*轮播图填充*/
+.viewPagerTitles{
+    display: flex;
+    flex-direction: column;
+    width:19%;
+    border-style: none;
+    background-color: coral;
+}/*轮播图标题组*/
+.viewPagerTitle{
+    width:100%;
+    height:50%;
+    line-height: 175px;
+    border-radius: 10px;
+    border-bottom: solid 1px lightgoldenrodyellow;
+}/*轮播图标题*/
+#side{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    height:1500px;
+    margin-left:60px;
+    border-left:solid 1px grey;
+}/*精简讯息*/
+#notice-DFF{
+    width: 100%;
+    height: 50%;
+    border-bottom:solid 1px grey;
+}
+#notice-DFF-title{
+    width:100%;
+    height:30px;
+    color:red;
+}
+ul li{
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: left;
+    list-style-type: none;
+    list-style-image: url("../../resources/homePage/Icon-li.png");
+}
+#association{
+    width: 100%;
+    height: 50%;
+}
+#notice{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    border-style: none;
+} /*咨询信息框架*/
+.notice{
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    margin-bottom:80px;
+}/*咨询类*/
+.notice:hover{
+
+}
+.noticeTitle{
+    height: 20%;
+    line-height: 47px;
+    text-align: left;
+    font-size: 20px;
+    font-weight:bold;
+}/*公告标题*/
+.noticeContent{
+    display: flex;
+    height: 80%;
+}/*公告内容*/
+.noticeContent:hover{
+    background-color:lightgoldenrodyellow;
+}
+.noticePic{
+    width: 35%;
+    height: 100%;
+}/*公告图片*/
+.noticePic{
+    background-color:lightgoldenrodyellow;
+}
+.noticePicImg{
+    width: 100%;
+    height: 100%;
+}
+.noticeText{
+    width: 75%;
+    height: 100%;
+    padding-left:30px;
+    line-height:45px;
+    text-align:left;
+}/*公告文本内容*/

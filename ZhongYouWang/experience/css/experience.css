@@ -1,0 +1,94 @@
+
+ul li{
+    font-size: 14px;
+    margin: 30px;
+    text-align: left;
+    list-style-type: none;
+    list-style-image: url("../../resources/homePage/Icon-li.png");
+}
+section{
+    position: relative;
+    bottom:-110px;
+    width:100%;
+    height: 1200px;
+}
+#sectionBox{
+    display: flex;
+    width:100%;
+    height: 1200px;
+}
+#directories{
+    display: flex;
+    flex-direction: column;
+    width:15%;
+    height: 1200px;
+}/*分类目录*/
+.directory{
+    display:flex;
+    flex-direction: column;
+    flex: 20%;
+    border-left:solid 1px grey;
+    border-right:solid 1px grey;
+}/*详细分类*/
+.directoryHeader{
+    width:100%;
+    height:39px;
+    line-height: 40px;
+    border-top:solid 1px grey;
+    border-bottom:solid 1px grey;
+    font-size: 20px;
+}/*分类标题*/
+.hotItems{
+    flex:20%;
+}/*目录下的热帖*/
+#search{
+    height:40px;
+    border-bottom:1px solid grey;
+}/*搜索*/
+#searchText{
+    float:right;
+    width:200px;
+    height:36px;
+    margin-right:30px;
+    border-radius: 30px;
+    background-color: darkgrey;
+}/*搜索文本框*/
+#searchButton{
+    float: right;
+    width:60px;
+    height:40px;
+    line-height:40px;
+    background-color:deepskyblue;
+}/*搜索框按钮*/
+.classify{
+    float:left;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    background-color:deepskyblue;
+    margin-left:60px;
+}/*搜索框分类按钮*/
+#items{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height: 1200px;
+}/*帖子条目*/
+.itemBox{
+    flex: 10%;
+    line-height:125px;
+    text-align: left;
+    border-bottom:solid 1px grey;
+}/*帖子*/
+.item{
+    position:relative;
+    right: -60px;
+}
+#qq{
+    width:15%;
+    height: 1200px;
+}/*社群*/
+.sectionFill{
+    width:10%;
+    height: 1200px;
+}/*section填充*/

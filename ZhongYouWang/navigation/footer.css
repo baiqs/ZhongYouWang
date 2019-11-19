@@ -1,0 +1,25 @@
+/*footer域*/
+footer{
+    position:relative;
+    bottom:-110px;
+    display:flex;
+    background-color:darkgrey;
+    height:200px;
+    width:100%;
+}
+.misc{
+    display:flex;
+    width:25%;
+    height: 200px;
+    border-right: none;
+}
+.miscText{
+    flex:50%;
+    margin-top: 20px;
+    text-align: left;
+    border-style: none;
+}
+.miscFill{
+    flex:25%;
+    border-style: none;
+}

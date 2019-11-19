@@ -1,0 +1,126 @@
+
+/*teamHeader域*/
+section{
+    position: relative;
+    bottom: -110px;
+    width:100%;
+    height:995px;
+}
+#sectionBox{
+    display:flex;
+    flex-direction: column;
+    border-style: none;
+    height:100%;
+    background-color:transparent;
+}
+#teamHeader{
+    display: flex;
+    flex:2%;
+    line-height:45px;
+}/*团队头信息*/
+.teamHeaderInfo{
+    flex:25%;
+    border-bottom:1px solid grey;
+}
+.teamHeaderFill{
+    width:10%;
+    height:100px;
+    background-color:transparent;
+    border-style:none;
+}
+
+
+/*teamSection域*/
+#teamSectionBox{
+    display:flex;
+    height: 1000px;
+    background-color:transparent;
+}
+#teamSection{
+    display:flex;
+    width:120%;
+    height: 1000px;
+}
+#mainInfo{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    height:1000px;
+    border-right:1px solid grey;
+}/*主要信息*/
+#beMakingGame{
+    flex:75%;
+    padding:15px 50px 50px 50px;
+    text-align:left;
+    border-bottom:1px solid grey;
+}/*正在制作的游戏*/
+#gamePicBox{
+    position: absolute;
+    left:10%;
+    bottom:25%;
+    display: flex;
+    width:800px;
+    height:120px;
+}/*游戏图片组*/
+
+.gamePic{
+    flex:10%;
+    margin-right: 10px;
+}
+.aGamePic{
+    width:100%;
+    height: 100%;
+ }/*一个游戏图片*/
+#teamInfo{
+    padding:35px 50px 50px 50px;
+    text-align: left;
+    flex: 20%;
+}/*团队详介*/
+
+#recruit{
+    display:flex;
+    flex-direction: column;
+    width:20%;
+    height:1000px;
+    border-right:1px solid grey;
+}/*在招职位*/
+#recruitHeader{
+    line-height:45px;
+    border-bottom:1px solid grey;
+}/*标题*/
+.recruitingPosition{
+    padding:60px;
+    border-bottom:1px solid grey;
+    background-color:lightyellow;
+}/*在招职位详情*/
+
+#productions{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    height:1000px;
+}/*往期游戏*/
+#productionsHeader{
+    height:45px;
+    line-height:45px;
+    border-bottom:1px solid grey;
+}/*往期游戏标题*/
+.theProduction{
+    display:flex;
+    flex-direction: column;
+    height:246px;
+    border-bottom:1px solid grey;    
+}/*往期游戏*/
+.theProductionPic{
+    flex:85%;
+}
+.theProductionName{
+    flex:15%;
+}
+
+.teamSectionFill{
+    width:10%;
+    height:1000px;
+    border-style: none;
+    background-color:transparent;
+}/*团队框架填充*/
